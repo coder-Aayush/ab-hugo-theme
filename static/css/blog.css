@@ -1,0 +1,50 @@
+#content .container {
+  max-width: 900px;
+  margin: 0px auto;
+  line-height: inherit;
+}
+
+#content .container h3 {
+  font-weight: 600;
+  line-height: inherit;
+}
+
+#content .container .content__box {
+  line-height: 1.9;
+}
+
+P {
+  line-height: 1.92;
+  font-size: 18px;
+}
+p a {
+  color: rgb(166, 255, 82) !important;
+}
+
+pre {
+  padding: 1.5rem;
+  line-height: 173%;
+  font-size: 15px;
+  -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.02),
+    1px 1px 15px 0 rgba(0, 0, 0, 0.03);
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.02),
+    1px 1px 15px 0 rgba(0, 0, 0, 0.03);
+  white-space: pre;
+  background-color: #0f2d44;
+  counter-reset: line;
+}
+
+pre span {
+  display: block;
+  line-height: 2rem;
+}
+
+pre span::before {
+  counter-increment: line;
+  content: counter(line);
+  display: inline-block;
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+  color: #888;
+}
+/*# sourceMappingURL=blog.css.map */

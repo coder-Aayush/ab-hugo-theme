@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="sizedbox__60"></div>
+<section id="content">
+  <div class="container text-light">
+    <h3>{{.Title}}</h3>
+    <div class="content__box">
+      <div class="sizedbox__20"></div>
+      <p class="content">
+        {{ .Content }}
+      </p>
+    </div>
+    <div class="sizedbox__60"></div>
+    {{ partial "comment.html" . }}
+  </div>
+</section>
+<div class="sizedbox__60"></div>
+{{ end }}

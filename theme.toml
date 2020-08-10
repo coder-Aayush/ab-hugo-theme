@@ -1,0 +1,17 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "AB Hugo Theme"
+license = "MIT"
+licenselink = "https://github.com/coder-Aayus/ab-hugo-theme/blob/master/LICENSE"
+description = "Awesome Hugo Theme For Hugo Coder"
+homepage = "https://github.com/coder-Aayus/ab-hugo-theme"
+tags = ["HugoThemes"]
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Aayush Bhattarai"
+  homepage = "https://github.com/coder-Aayush/ab-hugo-theme"
+
+

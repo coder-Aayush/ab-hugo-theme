@@ -1,0 +1,31 @@
+<meta name="title" content="{{.Title}}" />
+<link rel="icon" type="image/png" href="{{.Site.Params.favicon}}" />
+<meta
+  name="description"
+  content="{{if .IsHome}}{{ .Site.Params.discription }}{{else}}{{ .Summary | truncate 120}}{{end}}"
+/>
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://coder-aayush.github.io/" />
+<meta property="og:url" content="{{.Permalink }}" />
+<meta property="og:title" content="{{.Title}}" />
+<meta property="og:image" content="{{.Site.Params.featuredImage}}" />
+<meta
+  property="og:description"
+  content="{{if .IsHome}}{{ .Site.Params.discription }}{{else}}{{ .Summary | truncate 120}}{{end}}"
+/>
+<meta property="twitter:url" content="https://coder-aayush.github.io/" />
+<meta property="twitter:title" content="{{.Title}}" />
+<meta
+  property="twitter:description"
+  content="{{if .IsHome}}{{ .Site.Params.discription }}{{else}}{{ .Summary | truncate 120}}{{end}}"
+/>
+<meta name="author" content="{{.Site.Params.author}}" />
+
+<!-- RSS -->
+{{ with .OutputFormats.Get "RSS" }}
+<link
+  href="{{ .RelPermalink }}"
+  rel="alternate"
+  type="application/rss+xml"
+  title="{{ $.Site.Title }}"
+/>{{ end }}

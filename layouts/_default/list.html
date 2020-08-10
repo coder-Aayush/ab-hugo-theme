@@ -1,0 +1,37 @@
+{{ define "main" }}
+<section id="intro">
+  <h1>{{ .Site.Title }}</h1>
+  <div class="sizedbox__5"></div>
+  <p>{{.Site.Params.bio}}</p>
+  <div class="sizedbox__5"></div>
+
+  <ul class="social">
+    {{ range .Site.Params.Social}}
+    <a href="{{.url}}" target="_blank"><i class="fa fa-{{.icon}}"></i></a>
+    {{end}}
+  </ul>
+</section>
+<section id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        {{ range (where .Paginator.Pages "Type" "posts") }}
+        <div class="card">
+          <a href="{{ .RelPermalink }}">
+            <div class="card-body">
+              <h1>
+                {{ .Title }}
+              </h1>
+              <div class="sizedbox__10"></div>
+              <p class="blog__dis">{{ .Summary | truncate 120}}</p>
+              <div class="sizedbox_20"></div>
+              <p class="blog__date">{{.Date.Format "Mon, Jan 2, 2006"}}</p>
+            </div>
+          </a>
+        </div>
+        {{end}}
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}

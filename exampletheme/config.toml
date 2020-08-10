@@ -1,0 +1,31 @@
+baseURL = "http://example.org/" # Your site domain (must put slash "/" at the end of domain)
+languageCode = "en-us"
+title = "AB Hugo Coder"
+theme ="ab-hugo-theme"
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+
+
+[params]
+  bio = "I am Hugo Coder"
+  discription = "Hola I am aayush"
+  author = "Aayush Bhattarai"
+  showcredit = true
+  favicon = "/img/ab-hugo-coder.ico"
+  featuredImage = "" # add Featured Image inside /assets/images and your path be like /images/filename.jpg
+  disqusShortname = "" # add your disqus short name
+  showComment = true
+
+
+
+[[params.social]]
+        url   = "https://twitter.com/"
+        icon  = "twitter" 
+    [[params.social]]
+        url   = "https://facebook.com/"
+        icon  = "facebook-f"
+    [[params.social]]
+        url = "mailto:youremail@email.com"  # For a direct email link, use "mailto:test@example.org".
+        icon = "paper-plane"
