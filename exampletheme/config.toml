@@ -13,8 +13,8 @@ url = "/about/"
   discription = "Hola I am aayush"
   author = "Aayush Bhattarai"
   showcredit = true
-  favicon = "/img/ab-hugo-coder.ico"
-  featuredImage = "" # add Featured Image inside /assets/images and your path be like /images/filename.jpg
+  favicon = "img/ab-hugo-coder.ico"
+  featuredImage = "" # add Featured Image inside /assets/images and your path be like images/filename.jpg
   disqusShortname = "" # add your disqus short name
   showComment = true
 

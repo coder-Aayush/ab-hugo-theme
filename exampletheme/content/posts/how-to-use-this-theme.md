@@ -1,7 +1,7 @@
 ---
-title: "How to Use AB Hugo Coder Theme"
-date: 2020-08-09T21:37:54+05:45
-draft: true
+title: "How to Use Ab Hugo Theme"
+date: 2020-08-10T15:48:44+05:45
+draft: false
 ---
 
 AB Hugo Theme is the theme made with hugo which is static site generator made unpon Golang Programming Language.
@@ -47,7 +47,8 @@ hugo server -D
 
 **Note: If you are seeing a blank page it is probably because you have nothing in your content/ directory. Read on to fix that.**
 
-###Configuring the Home Page
+### Configuring the Home Page
+
 In the **config.tomol** file you can customize homepage.
 
 ```
@@ -66,13 +67,13 @@ This paramaters are all over the site. If you don't like confuging just copy & p
   discription = "Hola I am aayush"
   author = "Aayush Bhattarai"
   showcredit = true
-  favicon = "/img/ab-hugo-coder.ico"
-  featuredImage = "" # add Featured Image inside /assets/images and your path be like /images/filename.jpg
+  favicon = "img/ab-hugo-coder.ico"
+  featuredImage = "" # add Featured Image inside assets/images and your path be like images/filename.jpg
   disqusShortname = "" # get username from disqus
   showComment = true # either true or false
 ```
 
-**Note Add your Images inside _/assets/images_ and path must be _/images/filename.jpg_\* Must contain "/" at front of filename**
+**Note Add your Images inside _assets/images_ and path must be _images/filename.jpg_**
 
 ### Social Icons
 
@@ -146,7 +147,7 @@ Add you favicon at _static/img_ also yo need to add in _config.tomol_ file
 ```hugo
 [params]
   ....
-  favicon = "/img/ab-hugo-coder.ico" #must start with "/"
+  favicon = "/img/ab-hugo-coder.ico"
   ....
 ```
 

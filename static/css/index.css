@@ -300,4 +300,13 @@ body nav .container-fluid .collapse ul li a:hover {
   color: transparent !important;
   box-shadow: none;
 }
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

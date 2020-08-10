@@ -30,7 +30,8 @@ hugo server -D
 
 **Note: If you are seeing a blank page it is probably because you have nothing in your content/ directory. Read on to fix that.**
 
-###Configuring the Home Page
+### Configuring the Home Page
+
 In the **config.tomol** file you can customize homepage.
 
 ```
@@ -49,13 +50,13 @@ This paramaters are all over the site. If you don't like confuging just copy & p
   discription = "Hola I am aayush"
   author = "Aayush Bhattarai"
   showcredit = true
-  favicon = "/img/ab-hugo-coder.ico"
-  featuredImage = "" # add Featured Image inside /assets/images and your path be like /images/filename.jpg
+  favicon = "img/ab-hugo-coder.ico"
+  featuredImage = "" # add Featured Image inside assets/images and your path be like images/filename.jpg
   disqusShortname = "" # get username from disqus
   showComment = true # either true or false
 ```
 
-**Note Add your Images inside _/assets/images_ and path must be _/images/filename.jpg_\* Must contain "/" at front of filename**
+**Note Add your Images inside _assets/images_ and path must be _images/filename.jpg_**
 
 ### Social Icons
 
@@ -129,9 +130,9 @@ Add you favicon at _static/img_ also yo need to add in _config.tomol_ file
 ```hugo
 [params]
   ....
-  favicon = "/img/ab-hugo-coder.ico" #must start with "/"
+  favicon = "/img/ab-hugo-coder.ico"
   ....
 ```
 
 You can also Add Featured Image same as above.
-This is the confugration for **AB Hugo Theme.** For more you can see [config.tomol](https://github.com/coder-Aayush/ab-hugo-theme/blob/)
+This is the confugration for **AB Hugo Theme.** For more you can see [config.tomol]()
