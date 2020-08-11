@@ -14,13 +14,13 @@ At the root of your Hugo project, run:
 git submodule add https://github.com/coder-Aayush/ab-hugo-theme themes/ab-hugo-theme
 ```
 
-Add **AB HUGO Theme** at you _config.tomol_ file.
+Add **AB HUGO Theme** at you _config.toml_ file.
 
 ```
 theme = "ab-hugo-theme"
 ```
 
-Next, copy the contents of the [config.tomol](exampleSite/config.tomol) to your site's config.toml. Make sure to read all the comments.
+Next, copy the contents of the [config.toml](exampleSite/config.tomol) to your site's config.toml. Make sure to read all the comments.
 
 Finally, Run
 
@@ -32,7 +32,7 @@ hugo server -D
 
 ### Configuring the Home Page
 
-In the **config.tomol** file you can customize homepage.
+In the **config.toml** file you can customize homepage.
 
 ```
 title = "Title of Your Website"
@@ -60,7 +60,7 @@ This paramaters are all over the site. If you don't like confuging just copy & p
 
 ### Social Icons
 
-In your _config.tomol_ file add
+In your _config.toml_ file add
 
 ```
 [[params.social]]
@@ -106,7 +106,7 @@ hugo new gallery.md
 
 ### Displaying Other Pages in Menu/Nav
 
-For Displaying Your other files like _gallery.md_, Open _config.tomol file and type_
+For Displaying Your other files like _gallery.md_, Open _config.toml file and type_
 
 ```
 [[menu.main]]
@@ -125,7 +125,7 @@ url = "https://github.com/coder-Aayush"
 
 ### Adding Favicon
 
-Add you favicon at _static/img_ also yo need to add in _config.tomol_ file
+Add you favicon at _static/img_ also yo need to add in _config.toml_ file
 
 ```hugo
 [params]
@@ -135,4 +135,4 @@ Add you favicon at _static/img_ also yo need to add in _config.tomol_ file
 ```
 
 You can also Add Featured Image same as above.
-This is the confugration for **AB Hugo Theme.** For more you can see [config.tomol]()
+This is the confugration for **AB Hugo Theme.** For more you can see [config.toml]()
