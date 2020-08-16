@@ -309,4 +309,8 @@ body nav .container-fluid .collapse ul li a:hover {
   align-items: center;
   color: #fff;
 }
+img {
+  width: 100%;
+  padding: 10px 0px;
+}
 /*# sourceMappingURL=style.css.map */
