@@ -20,7 +20,7 @@ Add **AB HUGO Theme** at you _config.toml_ file.
 theme = "ab-hugo-theme"
 ```
 
-Next, copy the contents of the [config.toml](exampleSite/config.tomol) to your site's config.toml. Make sure to read all the comments.
+Next, copy the contents of the [config.toml](exampleSite/config.toml) to your site's config.toml. Make sure to read all the comments.
 
 Finally, Run
 
